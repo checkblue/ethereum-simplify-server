@@ -1,6 +1,6 @@
 {
   "name": "ethereum-simplify-server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "解决快速和以太坊链条沟通的server (简化版)",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,14 @@
     "express": "^4.15.4",
     "raw-body-parser": "0.0.2",
     "web3": "^1.0.0-beta.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/checkblue/ethereum-simplify-server.git"
+  },
+  "homepage": "https://github.com/checkblue/ethereum-simplify-server",
+  "keywords": [
+    "ethereum-simplify-server",
+    "ethereum"
+  ]
 }
