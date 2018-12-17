@@ -1,6 +1,6 @@
 {
   "name": "ethereum-simplify-server",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "解决快速和以太坊链条沟通的server (简化版)",
   "main": "index.js",
   "scripts": {
