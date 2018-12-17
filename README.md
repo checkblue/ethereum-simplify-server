@@ -79,16 +79,16 @@ npm安装完成之后进入ethereum-simplify-server目录中
 const config = {
   // 本地以太坊节点的接口地址, 连接方式暂时只支持http
   ETHNodeHost: 'http://127.0.0.1:8546',
-  
-  // 域链合约地址, 固定值, 不需要改变
+
+  // 合约地址, 固定值, 不需要改变
   DOCConstractAddress: '0x450bbc727100D806797CD617c88d1319563F8416',
-  
-  // 域链合约转账方法的签名, 固定值, 不需要改变
+
+  // 合约转账方法的签名, 固定值, 不需要改变
   DOCConstractMethodSgin: '0xa9059cbb',
-  
+
   // 启动http server的时候要监听的端口(3000为默认端口)
   listenPort: 3000,
-  
+
   // 设置hostname
   hostname: '127.0.0.1'
 }
@@ -123,7 +123,7 @@ server start successfully
 createAccount
 url:http://127.0.0.1:3000/createAccount
 method: POST
-Body: 
+Body:
   password: '密码' 推荐使用 32 个字符的随机密码 = 为了安全
 ```
 
